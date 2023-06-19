@@ -9,3 +9,4 @@ passlib~=1.7.4
 flask-migrate
 alembic~=1.11.1
 gunicorn
+psycopg2-binary

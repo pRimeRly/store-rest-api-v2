@@ -17,3 +17,9 @@ Mac/Linux
 ```
 docker run -dp 5006:5000 -w /app -v "$(pwd):/app" DOCKER_IMAGE_NAME sh -c "flask run --host 0.0.0.0"
 ```
+
+## Database
+Create a .env file in the root of your application, should contain
+```
+DATBASE_URL=
+```
